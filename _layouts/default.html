@@ -25,9 +25,9 @@
         {% if site.hasLinks %}
           <div class="links">
           {% for link in site.links %}
-            <a href="{{link.url | relative_url}}">{{ link.name }}</a>
+          <p><a href="{{link.url | relative_url}}">{{ link.name }}</a></p>
           {% else %}
-            <p>No links here</p>
+            <p>Por favor, adicione as ligações aqui</p>
           {% endfor %}
           </div>
         {% endif %}
