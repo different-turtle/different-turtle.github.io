@@ -1,7 +1,8 @@
 theme: jekyll-theme-minimal
 title: "DIFFERENT TURTLE"
-description: "A MoshBit Gaming é um site informativo e independente que se foca na indústria dos videojogos.
-A MoshBit Gaming nasceu em 2013 como um canal de youtube dedicado principalmente a reviews de jogos retro. O canal esteve activo durante alguns meses e chegaram até a ser establecidas algumas parcerias, mas devido ao pouco tempo disponível por parte da equipa este acabou por ser encerrado. Em 2016, dois dos membros originais da equipa decidiram trazer a MoshBit Gaming de volta, desta vez em formato de website (não abandonando o canal do youtube).
-O nosso principal objectivo é manter os nossos leitores informados sobre o mundo gaming (não esquecendo a indústria em Portugal) através de uma escrita simples e competente. Nem sempre é uma tarefa fácil, mas a nossa paixão pelos videojogos e o apreço dos leitores faz com que nunca desistamos deste projecto."
+description: "A MoshBit Gaming é um site informativo e independente que se foca na indústria dos videojogos."
 logo: ./assets/img/logo.png
 show_downloads: false
+isLinks: true
+link: ./assets/img/logo.png
+linkName: "Link catita"
