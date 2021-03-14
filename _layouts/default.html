@@ -25,26 +25,19 @@
         {% if site.hasLinks %}
           <div class="links">
           {% for link in site.links %}
-          <p><a href="{{link.url | relative_url}}">{{ link.name }}</a></p>
-          {% else %}
-            <p>Por favor, adicione as ligações aqui</p>
+            <p><a href="{{link.url | relative_url}}">{{ link.name }}</a></p>
           {% endfor %}
           </div>
         {% endif %}
 
         {% if site.posts %}
-            <h3>Últimas entradas:</h3>
-            {% for post in site.posts limit:4 %}
-              <p>
-                  <a href="{{ site.url }}{{ post.url }}">{{ post.title | xml_escape }}</a>
-                  <h6>{{ post.date | date_to_string  }}</h6>
-              </p>
-            {% endfor %}
-
-        {% else %}
-                <p>
-                    :(
-                </p>
+          <h3>Últimas entradas:</h3>
+          {% for post in site.posts limit:4 %}
+            <p>
+                <a href="{{ site.url }}{{ post.url }}">{{ post.title | xml_escape }}</a>
+                <h6>{{ post.date | date_to_string  }}</h6>
+            </p>
+          {% endfor %}
         {% endif %}
 
       </header>

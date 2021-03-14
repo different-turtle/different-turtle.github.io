@@ -17,6 +17,8 @@ Viciado em jogos de stealth, luta, beat'em ups e hack 'n slashes, mas um jogo co
 
 ## Francisco Xavier
 
+{{ site.baseurl }}
+
 ![Francisco Xavier](../assets/img/equipa/xavier_300-300.jpg)
 
 Fã de tecnologia, cinema, videojogos e Mac n' Cheese. Comecei a jogar aos 3 anos numa Super Nintendo e gosto particularmente de qualquer jogo que me divirta ou que faça pensar.
