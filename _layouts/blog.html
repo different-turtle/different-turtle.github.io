@@ -9,15 +9,13 @@
     <![endif]-->
   </head>
   <body>
-    <div class="blog_posts">
-      <section>
+    <section>
 
         {% for post in site.posts %}
-            <p><a href="{{post | relative_url}}">{{ post.description }}</a></p>
+            <p><a href="{{post.url | relative_url}}">{{ post.description }}</a> por {{post.name}}</p>
         {% endfor %}
 
-      </section>
-    </div>
+    </section>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
