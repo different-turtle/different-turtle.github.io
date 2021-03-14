@@ -7,6 +7,6 @@ permalink: "blog"
 # Últimas Entradas
 
 {% for post in site.posts %}
-    {{ post }}
-{% unless forloop.last %},{% endunless %}
+    [{{ post.title | xml_escape }}]({{ site.url }}{{ post.url }})
+    {{ post.date | date_to_xmlschema }}
 {% endfor %}
