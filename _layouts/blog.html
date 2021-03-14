@@ -9,19 +9,12 @@
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
+    <div class="blog_posts">
       <section>
-
-        {% if site.hasBlog %}
-        <h5>Novas entradas</h5>
-        <div class="blog_entries">
 
         {% for post in site.posts %}
             <p><a href="{{post | relative_url}}">{{ post }}</a></p>
         {% endfor %}
-
-        </div>
-        {% endif %}
 
       </section>
     </div>
