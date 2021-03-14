@@ -4,6 +4,7 @@ title: Um blog catita
 author: Filipe
 date: 2014-03-03 12:30:00 -0100
 categories: Novidades Cenas
+tags: Novidades Cenas
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).

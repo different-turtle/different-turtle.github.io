@@ -36,7 +36,13 @@
             <h3>Últimas entradas:</h3>
             {% for post in site.posts %}
                 <p>
-                    <a href="{{ site.url }}{{ post.url }}">{{ post.title | xml_escape }}</a> por {{ post.author.name }}
+                    <a href="{{ site.url }}{{ post.url }}">{{ post.title | xml_escape }}</a>
+                    por {{ post.publisher.name }}
+                    por {{ site.publisher.name }}
+                    por {{ site.description }}
+                    por {{ post.description }}
+                    por {{ site.datePublished }}
+                    por {{ post.datePublished }}
                     <h6>{{ post.date | date_to_xmlschema }}</h6>
                 </p>
             {% endfor %}
