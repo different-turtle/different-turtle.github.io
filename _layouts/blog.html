@@ -32,23 +32,21 @@
           </div>
         {% endif %}
 
-        {% if site.hasBlog %}
-            <h2>Novas entradas</h2>
-            <div class="blog_entries">
-
-            {% for post in site.posts %}
-                <p><a href="{{post | relative_url}}">{{ post }}</a></p>
-            {% else %}
-                <p>Por favor, adicione as entradas aqui</p>
-            {% endfor %}
-
-            </div>
-        {% endif %}
-
       </header>
       <section>
 
       {{ content }}
+
+        {% if site.hasBlog %}
+        <h5>Novas entradas</h5>
+        <div class="blog_entries">
+
+        {% for post in site.posts %}
+            <p><a href="{{post | relative_url}}">{{ post }}</a></p>
+        {% endfor %}
+
+        </div>
+        {% endif %}
 
       </section>
       <footer>
