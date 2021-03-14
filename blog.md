@@ -1,14 +1,14 @@
 ---
-layout: null
+layout: blog
 title: "Blog"
 permalink: "blog"
 ---
-Categorias:
+
 {% for category in site.categories %}
     {{ category | first }}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 
-Últimas entradas:
+
 {% for post in site.posts %}
     "title": "{{ post.title | xml_escape }}",
     "url": "{{ site.url }}{{ post.url }}",

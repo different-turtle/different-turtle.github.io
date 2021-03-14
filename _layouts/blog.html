@@ -4,18 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
   </head>
   <body>
-    <section>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+        
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
 
-        {% for post in site.posts %}
-            <p><a href="{{post.url | relative_url}}">{{ post.description }}</a> por {{post.name}}</p>
-        {% endfor %}
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-    </section>
+        {% if site.hasLinks %}
+          <div class="links">
+          {% for link in site.links %}
+          <p><a href="{{link.url | relative_url}}">{{ link.name }}</a></p>
+          {% else %}
+            <p>Por favor, adicione as ligações aqui</p>
+          {% endfor %}
+          </div>
+        {% endif %}
+        
+        {% if site.posts %}
+            <h3>Últimas entradas:</h3>
+            {% for post in site.posts %}
+                <p>
+                    <a href="{{ site.url }}{{ post.url }}">{{ post.title | xml_escape }}</a> por {{ post.name }}
+                    <h6>{{ post.date | date_to_xmlschema }}</h6>
+                </p>
+            {% unless forloop.last %},{% endunless %}
+            {% endfor %}
+
+            <h3>Categorias:</h3>
+            {% for category in site.categories %}
+                {{ category | first }}{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+
+            <h3>Tags:</h3>
+            {% for tag in site.tags %}
+                {{ tag | first }}{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+
+        {% else %}
+                <p>
+                    :(
+                </p>
+        {% endif %}
+
+      </header>
+      <section>
+
+      {{ content }}
+
+      {{ site }}
+
+      <script>
+          {{ site }}
+          var siteInfo = site;
+          console.log(siteInfo);
+      </script>
+
+      </section>
+      <footer>
+        <p>
+          &copy;
+          <script>
+            new Date().getFullYear() > 2010 &&
+              document.write("" + new Date().getFullYear() + " Different Turtle");
+          </script>
+        </p>
+            </footer>
+    </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
