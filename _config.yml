@@ -1,8 +1,12 @@
 theme: jekyll-theme-minimal
 title: "DIFFERENT TURTLE"
-description: "A MoshBit Gaming é um site informativo e independente que se foca na indústria dos videojogos."
+description: "Uma associação boa cmó diabe!"
 logo: ./assets/img/logo.png
 show_downloads: false
-isLinks: true
-link: ./assets/img/logo.png
-linkName: "Link catita"
+hasLinks: true
+links:
+  [
+    { url: ./contactos.html, name: "Contactos" },
+    { url: ./equipa.html, name: "Equipa" },
+    { url: ./contactos.html, name: "Contactos" },
+  ]

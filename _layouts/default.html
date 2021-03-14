@@ -21,11 +21,13 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        {% if site.isLinks %}
+
+        {% if site.hasLinks %}
           <div class="links">
-            <a href="{{site.link | relative_url}}">{{ site.linkName }}</a>
+            <a href="{{site.links[0].url | relative_url}}">{{ site.links[0].name }}</a>
           </div>
-          {% endif %}
+        {% endif %}
+
       </header>
       <section>
 
