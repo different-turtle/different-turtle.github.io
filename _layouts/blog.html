@@ -13,7 +13,7 @@
       <section>
 
         {% for post in site.posts %}
-            <p><a href="{{post | relative_url}}">{{ post }}</a></p>
+            <p><a href="{{post | relative_url}}">{{ post.description }}</a></p>
         {% endfor %}
 
       </section>
