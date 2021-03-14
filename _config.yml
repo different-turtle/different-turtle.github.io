@@ -3,6 +3,8 @@ title: "DIFFERENT TURTLE"
 description: "Uma associação boa cmó diabe!"
 logo: ./assets/img/logo.png
 show_downloads: false
+hasBlog: true
+posts: ./_posts
 hasLinks: true
 links:
   [
