@@ -13,26 +13,6 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-        
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.hasLinks %}
-          <div class="links">
-          {% for link in site.links %}
-            <p><a href="{{link.url | relative_url}}">{{ link.name }}</a></p>
-          {% else %}
-            <p>Por favor, adicione as ligações aqui</p>
-          {% endfor %}
-          </div>
-        {% endif %}
-
-      </header>
       <section>
 
       {{ content }}
@@ -49,15 +29,6 @@
         {% endif %}
 
       </section>
-      <footer>
-        <p>
-          &copy;
-          <script>
-            new Date().getFullYear() > 2010 &&
-              document.write("" + new Date().getFullYear() + " Different Turtle");
-          </script>
-        </p>
-            </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
