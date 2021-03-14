@@ -3,12 +3,17 @@ layout: post
 title: Um blog catita
 author: Filipe
 date: 2014-03-01 12:30:00 -0100
-categories: Novidades Cenas
-tags: Novidades Cenas
+categories: Cenas
+tags: Cenas
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit purus ut nisi pharetra euismod. Etiam id mollis est. Praesent porttitor, turpis eu tempor auctor, ipsum mi malesuada tellus, eu aliquet eros sapien in sapien. Aenean vitae porttitor ante. Nunc quis gravida purus. Pellentesque sed mattis nisl. Donec tincidunt gravida lobortis. Vivamus in libero aliquam, imperdiet ligula eu, iaculis purus. Cras finibus efficitur urna vitae semper. Duis et ullamcorper elit. Nullam efficitur vel eros vehicula ornare. Quisque eu ante vitae sem placerat maximus.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+In et arcu a lacus gravida viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent tincidunt ipsum nec dui dignissim, ut rutrum lectus dictum. Sed nec pulvinar mauris. Nulla pellentesque quam eu dui volutpat elementum. In ac nisl at sem congue gravida et gravida eros. Maecenas porta non odio at viverra. Quisque nisi nibh, congue sed tortor ut, mollis finibus ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse eu pellentesque odio. Maecenas sed sem vel felis interdum blandit.
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+In vel ultrices erat. Sed lacinia suscipit condimentum. Maecenas justo nunc, porttitor et iaculis a, viverra non dolor. Proin ullamcorper, dolor vitae sagittis imperdiet, arcu sem scelerisque ante, a lacinia nunc nulla eget ipsum. Sed accumsan tempus nisl, sit amet sagittis massa fermentum vitae. Vivamus hendrerit lorem ex, ac cursus ante volutpat at. Integer in ante id lacus fringilla feugiat porttitor eget erat. Phasellus odio nisi, tristique nec elit blandit, aliquet euismod metus. Pellentesque condimentum orci in ex dictum, in imperdiet purus elementum. Donec enim nisl, placerat in neque vitae, pharetra rutrum lectus. Donec gravida sed risus non varius. Nulla ornare, massa sed consequat convallis, dui nulla venenatis sapien, id tincidunt urna lorem vel justo. Morbi congue imperdiet urna, sed euismod leo iaculis id. Donec nunc turpis, luctus vitae ullamcorper non, congue eu velit. Vestibulum vitae orci massa. Curabitur ac lacus sollicitudin, tincidunt nibh ut, dictum eros.
+
+Vivamus viverra molestie faucibus. Sed tincidunt odio dui, sit amet consequat mauris luctus eu. Donec congue sapien a felis dignissim, ornare facilisis quam aliquam. Sed feugiat varius maximus. Aliquam consequat enim volutpat facilisis vehicula. Proin semper, mauris nec tincidunt mollis, mi arcu tempus justo, ut ornare sapien quam ut odio. Fusce ornare ligula justo. Curabitur pharetra bibendum eros, at aliquet magna gravida ut. Etiam ut nisi libero. In at nulla congue, commodo ex et, egestas elit. Integer sollicitudin libero quis nunc faucibus imperdiet sed sit amet tortor. Donec tristique quis mauris quis blandit. Curabitur est turpis, egestas sed nisi eget, fringilla venenatis enim.
+
+Sed risus ipsum, efficitur quis ante non, varius vestibulum libero. Nam at tempus lorem. Mauris semper sapien a nunc luctus, nec sollicitudin mauris pulvinar. Aenean interdum est eget egestas malesuada. Aenean scelerisque pretium placerat. Duis tempor neque purus, a maximus orci tempor quis. Phasellus rhoncus massa sed pellentesque facilisis. Integer pellentesque quis leo vitae scelerisque. Quisque et ipsum condimentum, ornare massa et, rutrum magna. Duis consequat eros ac pellentesque dignissim. Mauris ultrices mi cursus, auctor nibh sed, viverra dolor. Etiam in justo non nunc auctor venenatis. In hac habitasse platea dictumst. Vivamus non diam eu risus maximus efficitur. Sed ornare leo urna, id volutpat sapien malesuada non.
+Generated 5 paragraphs, 530 words, 3573 bytes of [Lorem Ipsum](https://www.lipsum.com/)

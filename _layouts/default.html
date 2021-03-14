@@ -36,8 +36,8 @@
             <h3>Últimas entradas:</h3>
             {% for post in site.posts limit:2 %}
               <p>
-                  <a href="{{ site.url }}{{ post.url }}">{{ post.title | xml_escape }}</a> por {{ page.author }}
-                  {{ post.excerpt }}
+                  <a href="{{ site.url }}{{ post.url }}">{{ post.title | xml_escape }}</a>
+                  <h5>"{{ post.excerpt }}"</h5>
                   <h6>{{ post.date | date_to_string  }}</h6>
               </p>
             {% endfor %}
