@@ -2,9 +2,12 @@
 layout: default
 ---
 
+# **FUTURAMENTE, A MELHOR ASSOCIAÇÃO DA ILHA DE TERCEIRA, DE CULTURA E DIVERTIMENTO**
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
+
 [Link to home](./home.html).
 
 There should be whitespace between paragraphs.

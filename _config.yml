@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-title: "COOL ASS TITLE"
-description: "COOL ASS DESCRIPTION"
-logo: http://www.moshbit.pt/wp-content/uploads/2016/08/cropped-moshbit_logo_simbolo.png
-show_downloads: true
+title: "DIFFERENT TURTLE"
+description: "COOL ASS ASSOCIATION"
+logo: ./assests/img/cropped-moshbit_logo_simbolo.png
+show_downloads: false
