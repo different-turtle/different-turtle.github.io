@@ -7,7 +7,7 @@ categories: Novidades
 tags: Novidades
 ---
 
-# Equipa
+Different Turtle é uma nova associação e coise...
 
 ## Filipe Silva
 
