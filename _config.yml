@@ -13,6 +13,7 @@ links:
     { url: "#portfolio", name: "Portfolio" },
     { url: "#contact", name: "Contactos" },
     { url: "./blog.html", name: "Blog" },
+    { url: "./org.html", name: "Blog" },
   ]
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
