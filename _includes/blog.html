@@ -13,8 +13,11 @@
             </h2>
             <em>{{ post.excerpt }}</em>
             <h6>{{ post.date | date_to_string  }}</h6>
-            <h6>{{ post.categories }}</h6>
-            <h6>{{ post.tags }}</h6>
+            {% for category in post.categories %}
+              <h6 class="blog-filter">
+                  <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category | capitalize }}</a>
+              </h6>
+	          {% endfor %}
         </p>
       {% endfor %}
       
