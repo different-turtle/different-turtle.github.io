@@ -6,6 +6,16 @@ email:
 logo: ./assets/img/logo.png
 show_downloads: false
 hasLinks: true
+links:
+  [
+    { url: "#about", name: "Sobre" },
+    { url: "#services", name: "Serviços" },
+    { url: "#portfolio", name: "Portfolio" },
+    { url: "#contact", name: "Contactos" },
+    { url: "./missao.html", name: "Missão" },
+    { url: "./contactos.html", name: "Contactos" },
+    { url: "./blog.html", name: "Blog" },
+  ]
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
@@ -16,10 +26,4 @@ github_username:
 markdown: kramdown
 
 # description: > # this means to ignore newlines until "baseurl:"
-# links:
-#   [
-#     { url: ./equipa.html, name: "Equipa" },
-#     { url: ./missao.html, name: "Missão" },
-#     { url: ./contactos.html, name: "Contactos" },
-#     { url: ./blog.html, name: "Blog" },
-#   ]
+
