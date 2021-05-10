@@ -32,7 +32,7 @@
 
         {% if site.posts %}
           <h3>Últimas entradas:</h3>
-          {% for post in site.posts limit:4 %}
+          {% for post in site.posts limit:2 %}
             <p>
                 <a href="{{ site.url }}{{ post.url }}">{{ post.title | xml_escape }}</a>
                 <h6>{{ post.date | date_to_string  }}</h6>

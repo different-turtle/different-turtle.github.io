@@ -7,10 +7,7 @@ hasLinks: true
 links:
   [
     { url: ./equipa.html, name: "Equipa" },
-    { url: ./equipa.html, name: "Equipa 2" },
     { url: ./missao.html, name: "Missão" },
-    { url: ./missao.html, name: "Missão 2" },
     { url: ./contactos.html, name: "Contactos" },
-    { url: ./contactos.html, name: "Contactos 2" },
     { url: ./blog.html, name: "Blog" },
   ]
