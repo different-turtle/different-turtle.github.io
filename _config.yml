@@ -1,22 +1,21 @@
 # Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
-
-twitter_username:
-github_username:
-
-# Build settings
-markdown: kramdown
-
-theme: jekyll-theme-minimal
 title: "DIFFERENT TURTLE"
 description: "Uma associação boa cmó diabe!"
 logo: ./assets/img/logo.png
 show_downloads: false
 hasLinks: true
+email:
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+facebook_page: 
+github_username:
+
+# Build settings
+markdown: kramdown
+
+# description: > # this means to ignore newlines until "baseurl:"
+# theme: jekyll-theme-minimal
 # links:
 #   [
 #     { url: ./equipa.html, name: "Equipa" },
