@@ -12,8 +12,6 @@ links:
     { url: "#services", name: "Serviços" },
     { url: "#portfolio", name: "Portfolio" },
     { url: "#contact", name: "Contactos" },
-    { url: "./missao.html", name: "Missão" },
-    { url: "./contactos.html", name: "Contactos" },
     { url: "./blog.html", name: "Blog" },
   ]
 baseurl: "" # the subpath of your site, e.g. /blog/

@@ -17,28 +17,13 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a class="page-scroll" href="#about">Sobre</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#services">Serviços</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#contact">Contactos</a>
-        </li>
-      </ul>
-    </div> -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
 
     {% if site.hasLinks %}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 {% for link in site.links %}
-                    <li><a href={{link.url | relative_url}}>{{ link.name }}</a></li>
+                    <li><a href="{{link.url | relative_url}}">{{ link.name }}</a></li>
                 {% endfor %}
             </ul>
         </div>
